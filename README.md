@@ -16,12 +16,20 @@ The core idea mirrors what NBA front offices actually do: find players who deliv
 
 ## Project Structure
 
-resume_project_4/
-data/ per_game_stats.csv , salaries.csv               # Scraped player contract data
-visuals/top15_undervalued_players.png, top10_overvalued_players.png, salary_vs_points.png, performance_by_position.png, feature_importance.png, actual_vs_predicted_salary.png
-scraper.py                     # Web scraping script for stats and salaries
-analysis.py                    # EDA, undervalued scoring, and ML model
-README.md
+-> resume_project_4/
+->data/ per_game_stats.csv , salaries.csv               # Scraped player contract data
+
+
+->visuals/top15_undervalued_players.png, 
+top10_overvalued_players.png, 
+salary_vs_points.png, 
+performance_by_position.png, 
+feature_importance.png, 
+actual_vs_predicted_salary.png
+
+->scraper.py                     # Web scraping script for stats and salaries
+->analysis.py                    # EDA, undervalued scoring, and ML model
+->README.md
 
 ## Methodology
 
